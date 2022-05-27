@@ -8,3 +8,5 @@ const app = (__window__.app = boot());
 
 initBlink(app);
 initTabsAdv(app);
+
+console.log(`2234234`)
