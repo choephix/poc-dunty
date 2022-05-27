@@ -1,0 +1,32 @@
+{
+  "editor.tabSize": 2,
+  "prettier.configPath": "./.prettierrc",
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.singleQuote": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.trailingComma": "es5",
+  "files.refactoring.autoSave": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    ".env": ".env, .env.*",
+    "atlas-*.json": "atlas-${capture}.*",
+    "*.ts": "${capture}.*.ts, ${capture}.js",
+    "webpack.js": "webpack.*.js"
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-linux",
+      "args": ["-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "bash",
+}
