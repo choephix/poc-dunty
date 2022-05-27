@@ -1,24 +1,5 @@
 {
-  "include": ["index.ts", "src", "vite.config.ts"],
   "compilerOptions": {
-    "declaration": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noUnusedLocals": true,
-    "outDir": "dist",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2018",
-
-    "esModuleInterop": true,
-    "allowJs": true,
-    "checkJs": true,
-    "jsx": "react-jsx",
-    "lib": ["dom", "es2018"],
-    "baseUrl": ".",
-    "paths": {
-      "@*": ["src/*"]
-    },
-    "types": ["vite/client"]
+    "target": "esnext"
   }
 }
