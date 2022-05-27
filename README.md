@@ -1,4 +1,6 @@
-# TODO
+# DUNTY Proof of Concept
+
+## TODO
 
   - [ ] Refactor game logic via events and processors
   - [x] Refactor status effect via prototype pattern
