@@ -4,7 +4,7 @@ import { Application } from "@pixi/app";
 
 import { boot } from "@client/core/boot";
 import { main } from "@client/main";
-import { initializeGameSingletons } from "./core/GameSingletons";
+import { initializeGameSingletons } from "@client/core/GameSingletons";
 
 const __window__ = window as any;
 
